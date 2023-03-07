@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bike-servicie
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
