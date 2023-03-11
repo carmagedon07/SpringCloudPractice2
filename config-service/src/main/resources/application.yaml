@@ -6,8 +6,11 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
+          #default-label: config-server
+          default-label: eureka
           uri: https://github.com/carmagedon07/SpringCloudPractice2
           search-paths: config-data
+          username: carmagedon7
+          password: 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
     application:
       name: config-service
